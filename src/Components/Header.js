@@ -18,6 +18,7 @@ const Header = styled.header`
 	align-items: center;
 	padding: 25px 0px;
 	border-bottom: ${(props) => props.theme.boxBorder};
+	z-index: 2;
 `;
 
 const HeaderWrapper = styled.div`
